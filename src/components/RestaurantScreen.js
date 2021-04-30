@@ -1,4 +1,5 @@
 import React from "react";
+import RestaurantList from "./RestaurantList";
 
 export const RestaurantScreen = () => {
     return (
