@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c5ccc28-42fc-4b63-80b1-860c87e51976" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cypress/integration/listing-restaurants.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RestaurantScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619677849445</updated>
       <workItem from="1619677851169" duration="1601000" />
-      <workItem from="1619762378588" duration="2794000" />
+      <workItem from="1619762378588" duration="3090000" />
     </task>
     <servers />
   </component>
@@ -128,30 +125,34 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="696" y="412" key="#ESLint/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619766397851" />
+    <state x="527" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619767468353">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="527" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767468353" />
     <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619765684920">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619765684920" />
-    <state width="1659" height="264" key="GridCell.Tab.0.bottom" timestamp="1619767001660">
+    <state width="1659" height="144" key="GridCell.Tab.0.bottom" timestamp="1619767313354">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.bottom/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619707810899" />
-    <state width="1659" height="264" key="GridCell.Tab.0.bottom/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767001660" />
-    <state width="1659" height="264" key="GridCell.Tab.0.center" timestamp="1619767001659">
+    <state width="1659" height="144" key="GridCell.Tab.0.bottom/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767313354" />
+    <state width="1659" height="144" key="GridCell.Tab.0.center" timestamp="1619767313352">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.center/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619707810893" />
-    <state width="1659" height="264" key="GridCell.Tab.0.center/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767001659" />
-    <state width="1659" height="264" key="GridCell.Tab.0.left" timestamp="1619767001658">
+    <state width="1659" height="144" key="GridCell.Tab.0.center/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767313352" />
+    <state width="1659" height="144" key="GridCell.Tab.0.left" timestamp="1619767313350">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.left/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619707810537" />
-    <state width="1659" height="264" key="GridCell.Tab.0.left/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767001658" />
-    <state width="1659" height="264" key="GridCell.Tab.0.right" timestamp="1619767001660">
+    <state width="1659" height="144" key="GridCell.Tab.0.left/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767313350" />
+    <state width="1659" height="144" key="GridCell.Tab.0.right" timestamp="1619767313353">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.right/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619707810895" />
-    <state width="1659" height="264" key="GridCell.Tab.0.right/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767001660" />
+    <state width="1659" height="144" key="GridCell.Tab.0.right/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767313353" />
     <state x="341" y="161" key="SettingsEditor" timestamp="1619678039874">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
