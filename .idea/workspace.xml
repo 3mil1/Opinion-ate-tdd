@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8c5ccc28-42fc-4b63-80b1-860c87e51976" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cypress/integration/listing-restaurants.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.11" />
@@ -45,6 +68,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="cypress" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="cypress" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -57,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.cypress" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
       </list>
@@ -71,34 +105,53 @@
       <option name="presentableId" value="Default" />
       <updated>1619677849445</updated>
       <workItem from="1619677851169" duration="1601000" />
-      <workItem from="1619762378588" duration="1331000" />
+      <workItem from="1619762378588" duration="2794000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1659" height="155" key="GridCell.Tab.0.bottom" timestamp="1619765601769">
+    <state x="696" y="412" key="#ESLint" timestamp="1619766397851">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="696" y="412" key="#ESLint/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619766397851" />
+    <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619765684920">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619765684920" />
+    <state width="1659" height="264" key="GridCell.Tab.0.bottom" timestamp="1619767001660">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.bottom/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619707810899" />
-    <state width="1659" height="155" key="GridCell.Tab.0.bottom/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619765601769" />
-    <state width="1659" height="155" key="GridCell.Tab.0.center" timestamp="1619765601766">
+    <state width="1659" height="264" key="GridCell.Tab.0.bottom/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767001660" />
+    <state width="1659" height="264" key="GridCell.Tab.0.center" timestamp="1619767001659">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.center/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619707810893" />
-    <state width="1659" height="155" key="GridCell.Tab.0.center/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619765601766" />
-    <state width="1659" height="155" key="GridCell.Tab.0.left" timestamp="1619765601764">
+    <state width="1659" height="264" key="GridCell.Tab.0.center/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767001659" />
+    <state width="1659" height="264" key="GridCell.Tab.0.left" timestamp="1619767001658">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.left/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619707810537" />
-    <state width="1659" height="155" key="GridCell.Tab.0.left/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619765601764" />
-    <state width="1659" height="155" key="GridCell.Tab.0.right" timestamp="1619765601767">
+    <state width="1659" height="264" key="GridCell.Tab.0.left/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767001658" />
+    <state width="1659" height="264" key="GridCell.Tab.0.right" timestamp="1619767001660">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="290" key="GridCell.Tab.0.right/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619707810895" />
-    <state width="1659" height="155" key="GridCell.Tab.0.right/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619765601767" />
+    <state width="1659" height="264" key="GridCell.Tab.0.right/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619767001660" />
     <state x="341" y="161" key="SettingsEditor" timestamp="1619678039874">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
