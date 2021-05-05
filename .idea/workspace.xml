@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c5ccc28-42fc-4b63-80b1-860c87e51976" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cypress/integration/creating-a-restaurant.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NewRestaurantForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/__tests__/NewRestaurantForm.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/listing-restaurants.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/listing-restaurants.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RestaurantList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RestaurantList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__tests__/RestaurantList.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/__tests__/RestaurantList.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RestaurantScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RestaurantScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/__tests__ /restaurants.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/__tests__ /restaurants.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/restaurants/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/restaurants/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/restaurants/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/restaurants/reducers.js" afterDir="false" />
@@ -110,9 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
-        <item itemvalue="npm.cypress" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.cypress" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -128,7 +132,8 @@
       <workItem from="1619677851169" duration="1601000" />
       <workItem from="1619762378588" duration="9709000" />
       <workItem from="1619791781430" duration="1359000" />
-      <workItem from="1620058344988" duration="8171000" />
+      <workItem from="1620058344988" duration="8584000" />
+      <workItem from="1620126844995" duration="7263000" />
     </task>
     <servers />
   </component>
@@ -160,26 +165,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1619765684920" />
-    <state width="1659" height="117" key="GridCell.Tab.0.bottom" timestamp="1620107516971">
+    <state width="1659" height="220" key="GridCell.Tab.0.bottom" timestamp="1620210585748">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="229" key="GridCell.Tab.0.bottom/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619793255545" />
-    <state width="1659" height="117" key="GridCell.Tab.0.bottom/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1620107516971" />
-    <state width="1659" height="117" key="GridCell.Tab.0.center" timestamp="1620107516952">
+    <state width="1659" height="220" key="GridCell.Tab.0.bottom/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1620210585748" />
+    <state width="1659" height="220" key="GridCell.Tab.0.center" timestamp="1620210585746">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="229" key="GridCell.Tab.0.center/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619793255543" />
-    <state width="1659" height="117" key="GridCell.Tab.0.center/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1620107516952" />
-    <state width="1659" height="117" key="GridCell.Tab.0.left" timestamp="1620107516950">
+    <state width="1659" height="220" key="GridCell.Tab.0.center/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1620210585746" />
+    <state width="1659" height="220" key="GridCell.Tab.0.left" timestamp="1620210585743">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="229" key="GridCell.Tab.0.left/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619793255538" />
-    <state width="1659" height="117" key="GridCell.Tab.0.left/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1620107516950" />
-    <state width="1659" height="117" key="GridCell.Tab.0.right" timestamp="1620107516969">
+    <state width="1659" height="220" key="GridCell.Tab.0.left/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1620210585743" />
+    <state width="1659" height="220" key="GridCell.Tab.0.right" timestamp="1620210585747">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="229" key="GridCell.Tab.0.right/0.0.1680.1050/-480.-1055.1920.1055@0.0.1680.1050" timestamp="1619793255544" />
-    <state width="1659" height="117" key="GridCell.Tab.0.right/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1620107516969" />
+    <state width="1659" height="220" key="GridCell.Tab.0.right/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1620210585747" />
     <state x="341" y="161" key="SettingsEditor" timestamp="1619791980825">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -189,9 +194,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="637" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1620063496308" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1620065336987">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1620142305182">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1620065336987" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/-480.-1080.1920.1080@0.0.1680.1050" timestamp="1620142305182" />
   </component>
 </project>
